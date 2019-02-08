@@ -10,6 +10,7 @@ function generate(file){
 }
 
 client.on("ready", () => {
+	client.user.setActivity("drf!help | In " + client.guilds.size + " servers.");
 	console.log("Ready!");
 });
 
